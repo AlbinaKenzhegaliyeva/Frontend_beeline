@@ -39,4 +39,33 @@ h1 {
 }
 .row2_1, .row2_2, .row2_3, .row2_4 {
   color: rgb(6, 115, 183);
+}
+
+footer {
+  background-color: rgba(0, 0, 0, 0.926);
+  margin-top: 90px;
+}
+
+.forFooter {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: gray;
+  padding: 30px 0 0 0;
+  font-size: 16px;
+}
+.forFooter__item {
+  margin-top: 50px;
+  padding-left: 80px;
+}
+
+.forFooter-2 {
+  display: flex;
+  flex-direction: row;
+  color: gray;
+  padding: 100px 0 50px 125px;
+  font-size: 12px;
+}
+.forFooter-2__text {
+  padding-left: 20px;
 }/*# sourceMappingURL=layout.css.map */
