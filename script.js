@@ -27,11 +27,6 @@ fetch("https://api.tvmaze.com/search/shows/?q=love")
     const language = document.createElement('p');
     language.textContent = data[0].show.language;
     div2.append(language);
-
-    const subscription = document.createElement('p');
-    subscription.textContent = data.subscription.plan;
-    div2.append(subscription);
-
 })
 .catch((err)=>{
     console.error("ERROR", err);
@@ -66,12 +61,6 @@ fetch("https://api.tvmaze.com/search/shows/?q=love")
     const language = document.createElement('p');
     language.textContent = data[5].show.language;
     div2.append(language);
-
-    const subscription = document.createElement('p');
-    subscription.textContent = data.subscription.plan;
-    div2.append(subscription);
-
-
 })
 .catch((err)=>{
     console.error("ERROR", err);
@@ -106,10 +95,6 @@ fetch("https://api.tvmaze.com/search/shows/?q=love")
     const language = document.createElement('p');
     language.textContent = data[2].show.language;
     div2.append(language);
-
-    const subscription = document.createElement('p');
-    subscription.textContent = data.subscription.plan;
-    div2.append(subscription);
 })
 .catch((err)=>{
     console.error("ERROR", err);
@@ -144,10 +129,6 @@ fetch("https://api.tvmaze.com/search/shows/?q=love")
     const language = document.createElement('p');
     language.textContent = data[0].show.language;
     div2.append(language);
-
-    const subscription = document.createElement('p');
-    subscription.textContent = data.subscription.plan;
-    div2.append(subscription);
 })
 .catch((err)=>{
     console.error("ERROR", err);
