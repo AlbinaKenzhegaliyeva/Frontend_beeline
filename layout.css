@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("loveee.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  margin: 0;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin: 50px 0 50px 0;
+  color: rgba(0, 0, 0, 0.926);
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+.film-img {
+  width: 250px;
+}
+
+.row1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 50px;
+}
+
+.row2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 170px;
+  text-align: center;
+}
+.row2_1, .row2_2, .row2_3, .row2_4 {
+  color: rgb(6, 115, 183);
+}/*# sourceMappingURL=layout.css.map */

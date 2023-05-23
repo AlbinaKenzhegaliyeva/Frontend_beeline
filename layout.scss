@@ -1,0 +1,45 @@
+$primary-color: rgb(6, 115, 183);
+$secondary-color: rgba(0, 0, 0, 0.926);
+
+@mixin flexBox() {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+* {
+    box-sizing: border-box;
+}
+body {
+    background-image: url('loveee.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+h1 {
+    text-align: center;
+    margin: 50px 0 50px 0;
+    color: $secondary-color;
+    font-size: 40px;
+    font-weight: bolder;
+}
+.film-img {
+    width: 250px;
+}
+.row1 {
+    @include flexBox();
+    gap: 50px;
+}
+.row2 {
+    @include flexBox();
+    gap: 170px;
+    text-align: center;
+
+    &_1,
+    &_2,
+    &_3,
+    &_4 {
+        color: $primary-color;
+    }
+}
