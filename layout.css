@@ -3,7 +3,7 @@
 }
 
 body {
-  background-image: url("loveee.jpg");
+  background-image: url("love.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -38,7 +38,7 @@ h1 {
   text-align: center;
 }
 .row2_1, .row2_2, .row2_3, .row2_4 {
-  color: rgb(6, 115, 183);
+  color: rgba(0, 0, 0, 0.926);
 }
 
 footer {

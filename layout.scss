@@ -10,7 +10,7 @@ $secondary-color: rgba(0, 0, 0, 0.926);
     box-sizing: border-box;
 }
 body {
-    background-image: url('loveee.jpg');
+    background-image: url('love.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -40,7 +40,7 @@ h1 {
     &_2,
     &_3,
     &_4 {
-        color: $primary-color;
+        color: $secondary-color;
     }
 }
 footer {
