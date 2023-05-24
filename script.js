@@ -1,6 +1,6 @@
 fetch("https://api.tvmaze.com/search/shows/?q=love")
 .then((res) => {
-    console.log("SUCCESS");
+    console.log("SUCCESS!");
     return res.json();
 })
 .then((data) => {
