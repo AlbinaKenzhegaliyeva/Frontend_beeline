@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Анкета для туроператора &#128509; </h1>
+
+    <div id="app">
+        <form action="/test">
+            <fieldset>
+                <legend>Данные путешественника</legend>
+                <br>
+                <div>
+                    <label for="name">ФИО:<span style="color: red;">*</span></label>
+                    <input type="text" id="name" placeholder="Иван Иванов" name="fullName" minlength="2" required>
+                </div>
+                <br>
+
+                <p>Где бы вы хотели отдохнуть?</p>
+                <select name="participation" id="participation">
+                    <option value="">Пока не решился(-лась)</option>
+                    <option value="new">{{country1}}</option>
+                    <option value="old">{{country2}}</option>
+                    <option value="normal">{{country3}}</option>
+                    <option value="normal2">{{country4}}</option>
+                </select>
+                <br><br>
+
+                <p>Выберите багаж:</p>
+
+                <div>
+                    <input type="radio" name="bagage" id="bagage_option1">
+                    <label for="bagage_option1">{{bagage_option1}}</label>
+                </div>
+                <div>
+                    <input type="radio" name="bagage" id="bagage_option2">
+                    <label for="bagage_option2">{{bagage_option2}}</label>
+                </div>
+                <div>
+                    <input type="radio" name="bagage" id="bagage_option3">
+                    <label for="bagage_option3">{{bagage_option3}}</label>
+                </div>
+
+                <p>Выбрать вид экскурсии:</p>
+
+                <div>
+                    <input type="checkbox" id="agree">
+                    <label for="agree">{{trip_agreement1}}</label>
+                    <br>
+                    <input type="checkbox" id="agree">
+                    <label for="agree">{{trip_agreement2}}</label>
+                    <br>
+                    <input type="checkbox" id="agree">
+                    <label for="agree">{{trip_agreement3}}</label>
+                    <br>
+                    <input type="checkbox" id="agree">
+                    <label for="agree">{{trip_agreement4}}</label>
+                </div>
+
+                <br>
+
+                <label for="comments">Ваши пожелания:</label>
+                <textarea name="comments" id="comments" cols="30" rows="10" placeholder="Хотелось бы..."></textarea>
+
+
+                    
+            </fieldset>
+            
+            <br>
+            <button type="reset">Сбросить данные</button>
+            <input type="submit" value="Отправить">
+    
+        </form>
+        
+    </div>
+
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
